@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Operations Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Number 1:
+            <input type="text" id="num1"><br><span id="err_num1"></span>
+        </p>
+
+        <p>
+            Operations:
+            <input type="radio" name="mathopr" id="opr" value="+">&plus;
+            <input type="radio" name="mathopr" id="opr" value="-">&minus;
+            <input type="radio" name="mathopr" id="opr" value="*">&times;
+            <input type="radio" name="mathopr" id="opr" value="/">÷
+            <br>
+            <span id="err_opr"></span>
+        </p>
+
+        <p>
+            Number 2:
+            <input type="text" id="num2"><br><span id="err_num2"></span>
+        </p>
+
+        <button id="btn">Calculate</button>
+        <p id="Output"></p>
+    </div>
+</body>
+</html>
